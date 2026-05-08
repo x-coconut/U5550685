@@ -32,7 +32,7 @@ The files contained in the [Model_Selection](./Model_Selection/) dirctory are th
 
 The file contained in the [Evaluation](./Evaluation/) directory is the Jupyter Notebook used to evaluate the base GPT-OSS-20B model in order to compare its performance to the fine-tuned model.
 
-The [fine_tune.jsonl](./fine_tune.jsonl) file is the dataset that the model was trained on during fine-tuning. The [fine_tine.sqlite](./fine_tune.sqlite) file holds this same dataset in a more human-readable format and the provided [./convert_sqlite_to_jsonl.py](./convert_sqlite_to_jsonl.py) file can be used to convert from the SQLite format to JSONL
+The [fine_tune.jsonl](./fine_tune.jsonl) file is the dataset that the model was trained on during fine-tuning. The [fine_tune.sqlite](./fine_tune.sqlite) file holds this same dataset in a more human-readable format and the provided [./convert_sqlite_to_jsonl.py](./convert_sqlite_to_jsonl.py) file can be used to convert from the SQLite format to JSONL
 
 The [fine_tune.ipynb](./fine_tune.ipynb) file is the Jupyter Notebook used to fine-tune the model.
 
