@@ -50,7 +50,7 @@ These notebooks all include the saved output from their most recent run so that 
 
 To run the provided notebooks, you must connect to a `T4 GPU` runtime. From there you can then execute the code cells in order. 
 
-When running some notebooks, you will be prompted to grant permission for access to your Google Drive. This is so that the neccessary files such as the saved model adapters can be accessed. You must Colab all the permissions it prompts for otherwise the code will not execute successfully.
+When running some notebooks, you will be prompted to grant permission for access to your Google Drive. This is so that the neccessary files such as the saved model adapters can be accessed. You must grant Colab all the permissions it prompts for otherwise the code will not execute successfully.
 
 The necessary files must be uploaded to Google Drive under the same Google account as the one used to authenticate to Colab.
 
