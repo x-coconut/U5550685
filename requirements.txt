@@ -1,0 +1,2 @@
+rich==14.3.3
+playwright==1.58.0
