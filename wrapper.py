@@ -460,7 +460,7 @@ def main():
         
         # IF ADDING THE LOGIC TO RUN THE AI MODEL IN THIS FILE, IT GOES HERE
         #######################################################################
-        console.print(Panel.fit(f"[bold red]Upload ./{REDACTED_FILE} to your Google Drive.\nSet the 'exploit_type' variable in cell 4 of 'generate_new_request.ipynb to the relevant value('xss' or 'sqli').\nThen, run the 'generate_new_request.ipynb' file with Google Colab.\nSave the 'generated_request.txt' file from your Google drive to ./{GENERATED_FILE}.[/bold red]", title="NOTICE", border_style="red", box=box.HORIZONTALS, padding=0))
+        console.print(Panel.fit(f"[bold red]Upload ./{REDACTED_FILE} to your Google Drive.\nSet the 'exploit_type' variable in cell 4 of 'generate_new_request.ipynb to the relevant value ('xss' or 'sqli').\nThen, run the 'generate_new_request.ipynb' file with Google Colab.\nSave the 'generated_request.txt' file from your Google drive to ./{GENERATED_FILE}.[/bold red]", title="NOTICE", border_style="red", box=box.HORIZONTALS, padding=0))
         while True:
             entered = Prompt.ask("[bold cyan]Enter 'c' to continue or 'q' to quit[/bold cyan]").lower()
             if entered == "q":
